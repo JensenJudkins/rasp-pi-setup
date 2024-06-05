@@ -1,4 +1,5 @@
-echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /etc/apt/sources.list
+#!/bin/bash
+sudo echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /etc/apt/sources.list
 
 sudo apt update
 sudo apt upgrade -y
