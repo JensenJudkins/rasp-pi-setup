@@ -1,1 +1,2 @@
-sudo apt install magic-wormhole htop neofetch hashcat nmap aircrack-ng john
+apt update
+apt install magic-wormhole htop neofetch hashcat nmap aircrack-ng john
